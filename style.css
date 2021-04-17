@@ -1,0 +1,490 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+body{
+    max-width: 100%;
+    margin: 0 auto;
+   font-family: 'Be Vietnam', sans-serif;
+    }
+ul{
+    list-style-type: none;
+}
+.as a:hover{
+    position: relative;
+    bottom: 0.1em;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    font-weight: 400;
+}
+li:hover{
+    text-decoration: underline;
+    position: relative;
+    bottom: 0.1em;
+}
+ h2{
+    color: hsl(228, 39%, 23%);
+    font-weight: 700; 
+}
+h3{
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+}
+p{
+    line-height: 1.7em;
+}
+button.go{
+    width: 70px;
+    padding: 8px;
+    border: none;
+}
+button{
+    width: 150px;
+    border: none;
+     height: 40px;
+    padding: 30px auto;
+    border-radius: 20px;
+    outline: none;
+    background-color: hsl(12, 88%, 59%);
+    box-shadow: 0 10px 10px -2px rgba(0,0,0,.25);
+}
+input{
+    width: 250px;
+    padding-left: 20px;
+    padding: 30px auto;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+header{
+    background-image: url(img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+      background-position-x: right;
+      max-width: 100%;
+
+}
+
+
+nav.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:40px  auto 0 auto;
+    width: 90%;
+}
+.openmenu{
+    cursor: pointer;
+    display: none;
+}
+.closemenu{
+    cursor: pointer;
+    display: none;
+}
+ul.navs{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+ul.navs li a{
+    padding: 15px;
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+}
+section.head{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ .content{
+    margin-left: 6em;
+    margin-top: 8em;
+}
+.chart{
+    margin-right: 6em;
+    margin-top: 4em;
+    
+} 
+.content .btn{
+    padding-top: 1em;
+}
+.content p{
+    padding-right: 15em;
+    padding-top: 1em;
+}
+.content h1{
+    line-height: 1.7em;
+    padding-right: 15em;
+    color: hsl(233, 12%, 13%);
+    font-weight: 700;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4em;
+}
+main .content1{
+    width: 20em;
+    margin-right: 1em;
+}
+.content1 p{
+    padding-top: 1em;
+}
+main .content2{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.content2 div{
+    width: 27em;
+    margin-left: 1em;
+}
+.content2 span{
+    margin-right: 1.5em;
+    background-color:  hsl(12, 88%, 59%);
+    padding: 0.3em; 
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 20px;
+    color: hsl(0, 0%, 98%);
+}
+.content2 p{
+    margin-left: 6.5em;
+    padding-top: 0.8em;
+}
+.center h2{
+    text-align: center;
+    margin-top: 4em;
+
+}
+article{
+    overflow: hidden;
+    width: 100%;
+  
+}
+article .slider{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5em;
+    justify-content: space-between;
+    gap: 1em;
+}
+.slider figure{
+    box-sizing: border-box;
+    width: 600px;
+    border-radius: 15px;
+   padding: 5px 10px;
+   position: relative;
+   text-align: center;
+   background-color: hsl(0, 0%, 98%);
+}
+figure img{
+    padding-bottom: 2em;
+    width: 70px;
+    border-radius: 30%;
+    position: relative;
+    bottom: 2em;
+}
+figcaption{
+  position: relative;
+  bottom: 2em;
+}
+figcaption h3{
+    margin-bottom: 1em;
+}
+.btn3{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 6em;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 90%; */
+    margin-top:10em;
+    background-color: hsl(12, 88%, 59% );
+    height: 250px;
+    background-image: url(img/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+
+}
+aside .bt{
+    margin-right: 6em;
+}
+aside .btn2 a{
+    color: hsl(12, 88%, 59% );
+}
+.btn2{
+    background-color: hsl(13, 100%, 96%);
+    color: hsl(12, 88%, 59% );
+}
+aside h2{
+    margin-left: 6em;
+    color:  hsl(0, 0%, 98%);
+    /* padding-right: 6em; */
+}
+footer{
+    padding-bottom: 4em;
+    margin-bottom: 0em;
+    background-color: hsl(233, 12%, 13%);
+    padding-top: 3em;
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.right{
+    margin-right: 6em;
+    color: hsl(227, 12%, 61%);
+}
+.as{
+    margin-left: 8.5em;
+}
+.as a{
+    padding-left: 0.6em;
+    padding-right: 0.5;
+}
+.footnav{
+    display: flex;
+    justify-content: space-between;
+}
+.navs1 li{
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+}
+.navs2 li{
+    padding-top: 0.4em;
+    padding-bottom: 0.5em;
+}
+.navs2{
+    margin-left: 8em;
+}
+
+@media screen and (min-width: 800px) {
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left:300px;}
+    30% {left: 300px;}
+    40% {left: 300px;}
+    50% {left: 300px;}
+    60% {left: 300px;}
+    70% {left: 300px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+.slider {
+    position: relative;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-box-direction: reverse;  
+}
+}
+@media screen and (max-width: 800px){
+    header{
+        max-width: 100%;
+    }
+    nav.header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin:40px  auto 0 auto;
+        width: 100%;
+    }
+nav .navs{
+    position: absolute;
+    /* left: 2%; */
+    max-width: 100%;
+    background-color: white;
+    padding: 1em 2em 1em 2em;
+    margin-top: 4em;
+    width: 100%;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+    display: none;
+    }
+    .logo{
+        margin-left: 1em;
+    }
+    .navs li{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    #getstarted{
+        display: none;
+    }
+    .openmenu{
+        display: block; 
+        margin-right: 1em;
+    }
+    .closemenu{
+        position: absolute;
+        right: 20px;
+    }
+    section.head{
+        margin: 5em auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+     text-align: center;
+      max-width: 100%;
+      margin:25px auto;
+    }
+    .chart{
+        margin-right: 0em;
+        margin-top: 0em;
+    }
+    .chart2{
+        max-width: 100%;
+        width: 400px;
+         
+    } 
+    .content .btn{
+        padding-top: 1em;
+    }
+    .content p{
+        padding-right: 0em;
+        padding-top: 1em;
+    }
+    .content h1{
+        padding-right: 0em;
+    }
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        margin: auto;
+    }
+    main .content1{
+        text-align: center;
+        margin: 1em auto;
+        padding: 1em;
+        width: 100%;
+    }
+    .content2 div{
+        max-width: 100%;
+        margin-left: 0em;
+    }
+    main .content2{
+        max-width: 100%;
+    }
+    .content2 h3{
+        max-width: 100%;
+        background-color: hsl(13, 100%, 96%);
+        padding: 0.4em;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        font-weight: 700;
+        font-size: small;
+    }
+    .content2 span{
+        margin-right: 0em;
+        background-color:  hsl(12, 88%, 59%);
+        padding: 0.3em; 
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        border-radius: 20px;
+        position: relative;
+        right: 5px;
+    }
+    .content2 p{
+        max-width: 100%;
+        margin-left: 3em;
+        padding-top: 0.8em;
+    }
+    article .slider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
+    .slider figure{
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 300px;
+        max-width: 100%;
+    }
+    aside{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5em;
+    }
+
+aside .bt{
+    margin-right: 0em;
+}
+aside h2{
+    margin-left: 0em;
+}
+.navs2{
+    margin-left: 0em;
+}
+.foot1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2em;
+}
+.foot2{
+    margin-top: 1.5em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.right{
+    text-align: center;
+}
+.footnav{
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right{
+    margin-right: 0em;
+}
+.as{
+    margin-left: 0em;
+}
+input{
+    width: 70%;
+}
+}
