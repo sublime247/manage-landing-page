@@ -97,7 +97,6 @@ ul.navs li a{
     color: hsl(228, 39%, 23%);
 }
 section.head{
-  
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -288,10 +287,10 @@ footer{
 @-webkit-keyframes slide_animation{
     0% {left: 0px;}
     10% {left: 0px;}
-    20% {left:300px;}
-    30% {left: 300px;}
-    40% {left: 300px;}
-    50% {left: 300px;}
+    20% {right:300px;}
+    30% {right: 300px;}
+    40% {right: 300px;}
+    50% {right: 300px;}
     60% {left: 300px;}
     70% {left: 300px;}
     80% {left: 0px;}
@@ -408,7 +407,7 @@ nav .navs{
         padding: 0.4em;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
-        font-weight: 700;
+        font-weight: 900;
         font-size: small;
     }
     .content2 span{
